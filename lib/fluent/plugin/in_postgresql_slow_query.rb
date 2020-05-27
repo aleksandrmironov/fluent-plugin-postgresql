@@ -1,5 +1,5 @@
 module Fluent
-class PostgreSQLSlowQueryInput < Fluent::TailInput
+class PostgreSQLSlowQueryInput < Fluent::Plugin::TailInput
   Fluent::Plugin.register_input('postgresql_slow_query', self)
 
   def initialize

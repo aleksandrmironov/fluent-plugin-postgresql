@@ -1,10 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "fluent-plugin-postgresql/version"
 
 Gem::Specification.new do |s|
   s.name        = "fluent-plugin-postgresql"
-  s.version     = 0.0.1
+  s.version     = "0.0.1"
   s.authors     = ["choplin"]
   s.email       = ["choplin.public@gmail.com"]
   s.homepage    = "https://github.com/choplin/fluent-plugin-postgresql"
